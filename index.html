@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wealth Sphere - Investment Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outerBorder personalFeed-container">
+        <h1>Wealth Sphere - Investment Tracker</h1>
+
+        <div class="feed-container">
+            <label for="stockSelect">Select a Stock:</label>
+            <select id="stockSelect">
+                <!-- Populate this dropdown with stock options -->
+                <option value="AAPL">Apple Inc.</option>
+                <option value="GOOGL">Alphabet Inc.</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <label for="investmentAmount">Enter Investment Amount:</label>
+            <input type="number" id="investmentAmount" placeholder="Enter amount">
+
+            <button onclick="calculateProfitLoss()">Calculate Profit/Loss</button>
+
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

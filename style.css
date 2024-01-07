@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+.outerBorder {
+    outline-style: double;
+}
+
+.personalFeed-container {
+    background-color: var(--bg);
+}
+
+.feed-container {
+    position: relative;
+    background-color: var(--bg);
+    margin-top: 5%;
+    width: 98%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+/* Apply the styling for the investment table */
+.tableRed {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #2f6675;
+    padding: 5px;
+    margin-bottom: 2%;
+    width: 98%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    float: left;
+    margin-left: 1%;
+    margin-top: 0.2%;
+}
+
+#colSymbol {
+    width: 10%;
+    padding-right: 1%;
+}
+
+#colStockName {
+    width: 40%;
+    font-weight: bold;
+}
+
+#colQuantity {
+    width: 10%;
+}
+
+#colPrice {
+    width: 10%;
+}
+
+#colCurrentPrice {
+    width: 10%;
+}
+
+#colCommision {
+    width: 10%;
+}
+
+#colCost {
+    width: 10%;
+}
+
+/* Add any other styles you need for your specific components */
